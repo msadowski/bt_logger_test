@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="bt_test" type="bt_test" name="bt_test" output="screen">
+    <param name="tree_path" value="$(find bt_test)/trees/tree.xml"/>
+  </node>
+</launch>
